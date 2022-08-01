@@ -13,17 +13,17 @@ a {
 h1 {
   color: var(--primary-color);
   font-size: 78px;
-  margin-top: 5px;
-  margin-bottom: -10px;
+  margin-top: -10px;
+  margin-bottom: -35px;
 }
 
 h2 {
   color: var(--primary-color);
   opacity: 80%;
-  font-size: 28px;
+  font-size: 45px;
 }
-h3 {
-  font-size: 25px;
+h4 {
+  font-size: 30px;
 }
 
 :root {
@@ -70,19 +70,6 @@ h3 {
 .about-button:hover {
   color: rgb(120, 67, 108);
 }
-.about-button,
-.contact-button {
-  transition: all 200ms ease;
-  text-align: center;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-  cursor: pointer;
-  color: white;
-  border: 10px;
-  border-radius: 4px;
-  border-color: white;
-  font-size: 15px;
-  font-family: var(--project-font);
-}
 
 .about-section {
   display: flex;
@@ -91,8 +78,17 @@ h3 {
 
 .about-section a {
   border: 1px solid black;
+  border-radius: 4px;
   padding: 20px;
   margin: 14px;
+  transition: all 200ms ease;
+  text-align: center;
+  box-shadow: #33193714 0px 8px 8px 0;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-family: var(--project-font);
+  text-transform: capitalize;
 }
 
 .about-text {
@@ -120,4 +116,8 @@ h3 {
   font-weight: 700;
   font-size: 28px;
   margin: 10px 5px 5px 3px;
+}
+#contact a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
 }
